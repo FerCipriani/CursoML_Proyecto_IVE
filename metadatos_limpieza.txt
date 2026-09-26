@@ -1,0 +1,32 @@
+METADATOS DEL PREPROCESAMIENTO — Parte 1
+==================================================================
+Fecha                 : 2026-09-26 23:00:50
+Archivo de origen     : https://raw.githubusercontent.com/FerCipriani/CursoML_Proyecto_IVE/main/doc-topics_K07_it1500_oi0_ob0_a1_b0.01_s12345.xlsx
+Filas                 : 171
+Columnas              : 8
+Variable objetivo     : TAG
+Clases                : ['AFI', 'NEG']
+Codificación          : {'NEG': 0, 'AFI': 1}
+Variables predictoras : ['T0', 'T1', 'T2', 'T3', 'T4', 'T5', 'T6']
+Variables descartadas : ninguna
+Semilla               : 42
+División              : 80% entrenamiento / 20% prueba, estratificada
+Entrenamiento         : 136 casos
+Prueba                : 35 casos
+
+Auditoría de calidad (punto 4):
+  4.1 Valores faltantes                                0 celdas vacías        ninguna
+  4.2 Duplicados completos                             0 filas                ninguna
+  4.2 Contradicciones (misma entrada, distinta etiqueta) 0 grupos               ninguna
+  4.3 Tipos de dato incorrectos                        0 columnas             ninguna
+  4.4 Columnas constantes                              0 columnas             ninguna
+  4.4 Valores fuera de rango                           0 valores              ninguna
+  4.4 Filas que no suman 1                             0 filas                ninguna
+  4.5 Filas con algún outlier (IQR)                    32 filas               SE CONSERVAN (ver justificación en 4.5)
+
+Decisiones tomadas:
+  - No se eliminó ni se modificó ningún dato.
+  - Los outliers se detectaron y se conservaron (justificado en 4.5).
+  - No se agregaron variables derivadas (justificado en 5.3).
+  - No se descartó ninguna variable (justificado en 6.2).
+  - El escalado se ajustó SOLO con el conjunto de entrenamiento (7.3).
