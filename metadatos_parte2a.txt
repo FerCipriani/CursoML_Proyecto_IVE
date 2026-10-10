@@ -1,0 +1,27 @@
+METADATOS DEL MODELADO — Parte 2A
+====================================================================
+Fecha                 : 2026-09-28 00:01:54
+Archivo de origen     : https://raw.githubusercontent.com/FerCipriani/CursoML_Proyecto_IVE/main/dataset_limpio.csv
+Filas                 : 171
+Columna objetivo      : TAG
+Columna codificada    : y
+Clases                : ['AFI', 'NEG']
+Codificación          : {'NEG': 0, 'AFI': 1}
+Clase positiva        : AFI
+Variables predictoras : ['T0', 'T1', 'T2', 'T3', 'T4', 'T5', 'T6']
+Línea de base         : 0.5556 (responder siempre 'AFI')
+
+Configuración a replicar en la Parte 2B (punto 0.3):
+  SEMILLA            = 65
+  CLASE_POSITIVA     = "AFI"
+  N_PLIEGUES         = 10
+  BRECHA_SOBREAJUSTE = 0.1
+  DESVIO_INESTABLE   = 0.08
+  SCORE_SUBAJUSTE    = 0.7
+
+Decisiones tomadas en esta parte:
+  - Se codificó la etiqueta a 0/1 fijando la clase positiva a mano (2.2).
+  - NO se aplicó escalado: va adentro del Pipeline, por pliegue (2.3, 4.6).
+  - NO se agregaron variables derivadas: se midieron y se descartaron (2.1).
+  - NO se eliminó ninguna fila ni ninguna columna.
+  - Toda evaluación posterior va con validación cruzada estratificada (6).

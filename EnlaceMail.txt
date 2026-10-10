@@ -1,0 +1,8 @@
+Comparto el cuaderno del proyecto, listo para ejecutar en Google Colab:
+
+https://colab.research.google.com/github/FerCipriani/CursoML_Proyecto_IVE/blob/main/Curso_ML_P1_Analisis_y_limpieza.ipynb
+
+No hace falta descargar ni instalar nada: se abre y se corre con Entorno de ejecución → Ejecutar todo. El dataset lo levanta solo desde el repositorio.
+
+El proyecto completo, con los datos y fuentes, está acá:
+https://github.com/FerCipriani/CursoML_Proyecto_IVE
