@@ -1,0 +1,10 @@
+Comparto el cuaderno del proyecto, listo para ejecutar en Google Colab:
+
+https://github.com/FerCipriani/CursoML_Proyecto_IVE/blob/main/Curso_ML_P2A_Preparacion_y_evaluacion.ipynb
+
+https://github.com/FerCipriani/CursoML_Proyecto_IVE/blob/main/Curso_ML_P2B_Los_modelos.ipynb
+
+No hace falta descargar ni instalar nada: se abre y se corre con Entorno de ejecución → Ejecutar todo. El dataset lo levanta solo desde el repositorio.
+
+El proyecto completo, con los datos y fuentes, está acá:
+https://github.com/FerCipriani/CursoML_Proyecto_IVE
